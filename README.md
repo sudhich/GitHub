@@ -151,8 +151,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 (9)$ git status
 On branch master
 nothing to commit, working tree clean
-**BY touch commond we create text file.**   
-(10)$ touch name_err.log (after running this command name_err file will get genrated)   
+**BY touch commond we create text file**.   
+(10)$ touch name_err.log (after running this command name_err file will get created whose name is name_err.log)   
 (11)$ git status  
 On branch master     
 Untracked files:   
