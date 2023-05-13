@@ -100,6 +100,53 @@ no changes added to commit (use "git add" and/or "git commit -a")
    *But if you want to your own name then*
    $git clone https://github.com/tensorflow/tensorflow.git MyOwnName
    
+                                                $ git status
+                                             On branch master
+
+                                             No commits yet
+
+                                             Changes to be committed:
+                                               (use "git rm --cached <file>..." to unstage)
+                                                     new file:   .gitignore
+                                                     new file:   New Bitmap Image.bmp
+                                                     new file:   New Rich Text Document.rtf
+                                                     new file:   rename.txt
+                                                     new file:   static/tex.txt
+
+                                             Changes not staged for commit:
+                                               (use "git add <file>..." to update what will be committed)
+                                               (use "git restore <file>..." to discard changes in working directory)
+                                                     modified:   rename.txt
+
+
+   
+                                                $ git add rename.txt
+
+                                             sudhir@DESKTOP-D9KEELJ MINGW64 /d/GitTutorial (master)
+                                             $ git status
+                                             On branch master
+
+                                             No commits yet
+
+                                             Changes to be committed:
+                                               (use "git rm --cached <file>..." to unstage)
+                                                     new file:   .gitignore
+                                                     new file:   New Bitmap Image.bmp
+                                                     new file:   New Rich Text Document.rtf
+                                                     new file:   rename.txt
+                                                     new file:   static/tex.txt
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 (8).gitignore me file_name or dir/(inner){/dir/(outer)} mention karege to wosko ignore kar dega.  
 (9)$ git status
 On branch master
