@@ -403,9 +403,25 @@ Date:   Sat Apr 22 17:31:26 2023 +0530
     Direct Commit
 
 :
-
+### If you want previous written data(by mistake edited) from a file run this commond.
 (29)
 
+                           $ git status
+                           On branch master
+                           Changes not staged for commit:
+                             (use "git add <file>..." to update what will be committed)
+                             (use "git restore <file>..." to discard changes in working directory)
+                                   modified:   rename.txt
+
+                           no changes added to commit (use "git add" and/or "git commit -a")
+
+                           sudhir@DESKTOP-D9KEELJ MINGW64 /d/GitTutorial (master)
+                           $ git restore rename.txt
+
+                           sudhir@DESKTOP-D9KEELJ MINGW64 /d/GitTutorial (master)
+                           $ git status
+                           On branch master
+                           nothing to commit, working tree clean
 
         
 
