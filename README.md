@@ -425,7 +425,8 @@ Date:   Sat Apr 22 17:31:26 2023 +0530
 
         
 
-
+## For previous commit then run this commond.
+         $ git checkout -f
      
      
 git remote add origin [copied web address]    
